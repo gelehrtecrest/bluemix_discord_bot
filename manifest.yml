@@ -1,0 +1,7 @@
+---
+applications:
+ - name: bluemix_discord_bot
+   random-route: true
+   memory: 128M
+   command: bash run.sh
+   path: .
